@@ -124,7 +124,7 @@ class _MyHomePageState extends State<MyHomePage> {
           child: Text('สุ่ม'),
           onPressed: () {
             setState(() {
-              int min = 000000;
+              int min = 100000;
               int max = 999999;
               Random random = Random();
               a = min + random.nextInt(max - min);
@@ -142,7 +142,7 @@ class _MyHomePageState extends State<MyHomePage> {
           child: Text('สุ่ม'),
           onPressed: () {
             setState(() {
-              int min = 000;
+              int min = 100;
               int max = 999;
 
               if (b == 0) {
@@ -166,7 +166,7 @@ class _MyHomePageState extends State<MyHomePage> {
           child: Text('สุ่ม'),
           onPressed: () {
             setState(() {
-              int min = 000;
+              int min = 100;
               int max = 999;
 
               if (d == 0) {
